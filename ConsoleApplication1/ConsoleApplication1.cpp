@@ -5,7 +5,7 @@ class mahasiswa {
 public:
 	int nim;
 	void showNim() {
-		cout << "no induk =" << nim << endl;	
+		cout << "no induk =" << nim << endl;
 	}
 };
 
@@ -15,4 +15,5 @@ int main()
 	mhs->nim = 2;
 	mhs->showNim();
 	delete mhs;
-	
+	system("pause");
+}
