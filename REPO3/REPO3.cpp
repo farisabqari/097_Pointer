@@ -6,4 +6,4 @@ private:
 	string nama;
 public:
 	void setNAma(string pNama);
-	
+	friend class siswa;
