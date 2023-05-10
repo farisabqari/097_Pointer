@@ -7,3 +7,7 @@ private:
 public:
 	void setNAma(string pNama);
 	friend class siswa;
+};
+class siswa {
+private:
+	
