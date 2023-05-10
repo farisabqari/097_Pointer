@@ -10,4 +10,15 @@ public:
 };
 class siswa {
 private:
-	
+	int id;
+public:
+	void setId(int pId);
+	void displayALL(orang& a);
+};
+void siswa::displayALL(orang& a) {
+	cout << id << endl a.nama
+
+}
+void siswa::setId(int pid) {
+
+}
