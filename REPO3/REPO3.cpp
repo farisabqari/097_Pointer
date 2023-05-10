@@ -5,4 +5,5 @@ class orang {
 private:
 	string nama;
 public:
+	void setNAma(string pNama);
 	
